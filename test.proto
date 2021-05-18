@@ -1,0 +1,207 @@
+syntax = "proto3";
+
+import "google/protobuf/empty.proto";
+
+service Test {
+    rpc Call0(Request0) returns (google.protobuf.Empty);
+    rpc Call1(Request1) returns (google.protobuf.Empty);
+    rpc Call2(Request2) returns (google.protobuf.Empty);
+    rpc Call3(Request3) returns (google.protobuf.Empty);
+    rpc Call4(Request4) returns (google.protobuf.Empty);
+    rpc Call5(Request5) returns (google.protobuf.Empty);
+    rpc Call6(Request6) returns (google.protobuf.Empty);
+    rpc Call7(Request7) returns (google.protobuf.Empty);
+    rpc Call8(Request8) returns (google.protobuf.Empty);
+    rpc Call9(Request9) returns (google.protobuf.Empty);
+    rpc Call10(Request10) returns (google.protobuf.Empty);
+    rpc Call11(Request11) returns (google.protobuf.Empty);
+    rpc Call12(Request12) returns (google.protobuf.Empty);
+    rpc Call13(Request13) returns (google.protobuf.Empty);
+    rpc Call14(Request14) returns (google.protobuf.Empty);
+    rpc Call15(Request15) returns (google.protobuf.Empty);
+    rpc Call16(Request16) returns (google.protobuf.Empty);
+    rpc Call17(Request17) returns (google.protobuf.Empty);
+    rpc Call18(Request18) returns (google.protobuf.Empty);
+    rpc Call19(Request19) returns (google.protobuf.Empty);
+    rpc Call20(Request20) returns (google.protobuf.Empty);
+    rpc Call21(Request21) returns (google.protobuf.Empty);
+    rpc Call22(Request22) returns (google.protobuf.Empty);
+    rpc Call23(Request23) returns (google.protobuf.Empty);
+    rpc Call24(Request24) returns (google.protobuf.Empty);
+    rpc Call25(Request25) returns (google.protobuf.Empty);
+    rpc Call26(Request26) returns (google.protobuf.Empty);
+    rpc Call27(Request27) returns (google.protobuf.Empty);
+    rpc Call28(Request28) returns (google.protobuf.Empty);
+    rpc Call29(Request29) returns (google.protobuf.Empty);
+    rpc Call30(Request30) returns (google.protobuf.Empty);
+    rpc Call31(Request31) returns (google.protobuf.Empty);
+    rpc Call32(Request32) returns (google.protobuf.Empty);
+    rpc Call33(Request33) returns (google.protobuf.Empty);
+    rpc Call34(Request34) returns (google.protobuf.Empty);
+    rpc Call35(Request35) returns (google.protobuf.Empty);
+    rpc Call36(Request36) returns (google.protobuf.Empty);
+    rpc Call37(Request37) returns (google.protobuf.Empty);
+    rpc Call38(Request38) returns (google.protobuf.Empty);
+    rpc Call39(Request39) returns (google.protobuf.Empty);
+    rpc Call40(Request40) returns (google.protobuf.Empty);
+    rpc Call41(Request41) returns (google.protobuf.Empty);
+    rpc Call42(Request42) returns (google.protobuf.Empty);
+    rpc Call43(Request43) returns (google.protobuf.Empty);
+    rpc Call44(Request44) returns (google.protobuf.Empty);
+    rpc Call45(Request45) returns (google.protobuf.Empty);
+    rpc Call46(Request46) returns (google.protobuf.Empty);
+    rpc Call47(Request47) returns (google.protobuf.Empty);
+    rpc Call48(Request48) returns (google.protobuf.Empty);
+    rpc Call49(Request49) returns (google.protobuf.Empty);
+    rpc Call50(Request50) returns (google.protobuf.Empty);
+    rpc Call51(Request51) returns (google.protobuf.Empty);
+    rpc Call52(Request52) returns (google.protobuf.Empty);
+    rpc Call53(Request53) returns (google.protobuf.Empty);
+    rpc Call54(Request54) returns (google.protobuf.Empty);
+    rpc Call55(Request55) returns (google.protobuf.Empty);
+    rpc Call56(Request56) returns (google.protobuf.Empty);
+    rpc Call57(Request57) returns (google.protobuf.Empty);
+    rpc Call58(Request58) returns (google.protobuf.Empty);
+    rpc Call59(Request59) returns (google.protobuf.Empty);
+    rpc Call60(Request60) returns (google.protobuf.Empty);
+    rpc Call61(Request61) returns (google.protobuf.Empty);
+    rpc Call62(Request62) returns (google.protobuf.Empty);
+    rpc Call63(Request63) returns (google.protobuf.Empty);
+    rpc Call64(Request64) returns (google.protobuf.Empty);
+    rpc Call65(Request65) returns (google.protobuf.Empty);
+    rpc Call66(Request66) returns (google.protobuf.Empty);
+    rpc Call67(Request67) returns (google.protobuf.Empty);
+    rpc Call68(Request68) returns (google.protobuf.Empty);
+    rpc Call69(Request69) returns (google.protobuf.Empty);
+    rpc Call70(Request70) returns (google.protobuf.Empty);
+    rpc Call71(Request71) returns (google.protobuf.Empty);
+    rpc Call72(Request72) returns (google.protobuf.Empty);
+    rpc Call73(Request73) returns (google.protobuf.Empty);
+    rpc Call74(Request74) returns (google.protobuf.Empty);
+    rpc Call75(Request75) returns (google.protobuf.Empty);
+    rpc Call76(Request76) returns (google.protobuf.Empty);
+    rpc Call77(Request77) returns (google.protobuf.Empty);
+    rpc Call78(Request78) returns (google.protobuf.Empty);
+    rpc Call79(Request79) returns (google.protobuf.Empty);
+    rpc Call80(Request80) returns (google.protobuf.Empty);
+    rpc Call81(Request81) returns (google.protobuf.Empty);
+    rpc Call82(Request82) returns (google.protobuf.Empty);
+    rpc Call83(Request83) returns (google.protobuf.Empty);
+    rpc Call84(Request84) returns (google.protobuf.Empty);
+    rpc Call85(Request85) returns (google.protobuf.Empty);
+    rpc Call86(Request86) returns (google.protobuf.Empty);
+    rpc Call87(Request87) returns (google.protobuf.Empty);
+    rpc Call88(Request88) returns (google.protobuf.Empty);
+    rpc Call89(Request89) returns (google.protobuf.Empty);
+    rpc Call90(Request90) returns (google.protobuf.Empty);
+    rpc Call91(Request91) returns (google.protobuf.Empty);
+    rpc Call92(Request92) returns (google.protobuf.Empty);
+    rpc Call93(Request93) returns (google.protobuf.Empty);
+    rpc Call94(Request94) returns (google.protobuf.Empty);
+    rpc Call95(Request95) returns (google.protobuf.Empty);
+    rpc Call96(Request96) returns (google.protobuf.Empty);
+    rpc Call97(Request97) returns (google.protobuf.Empty);
+    rpc Call98(Request98) returns (google.protobuf.Empty);
+    rpc Call99(Request99) returns (google.protobuf.Empty);
+}
+
+message Request0 {}
+message Request1 {}
+message Request2 {}
+message Request3 {}
+message Request4 {}
+message Request5 {}
+message Request6 {}
+message Request7 {}
+message Request8 {}
+message Request9 {}
+message Request10 {}
+message Request11 {}
+message Request12 {}
+message Request13 {}
+message Request14 {}
+message Request15 {}
+message Request16 {}
+message Request17 {}
+message Request18 {}
+message Request19 {}
+message Request20 {}
+message Request21 {}
+message Request22 {}
+message Request23 {}
+message Request24 {}
+message Request25 {}
+message Request26 {}
+message Request27 {}
+message Request28 {}
+message Request29 {}
+message Request30 {}
+message Request31 {}
+message Request32 {}
+message Request33 {}
+message Request34 {}
+message Request35 {}
+message Request36 {}
+message Request37 {}
+message Request38 {}
+message Request39 {}
+message Request40 {}
+message Request41 {}
+message Request42 {}
+message Request43 {}
+message Request44 {}
+message Request45 {}
+message Request46 {}
+message Request47 {}
+message Request48 {}
+message Request49 {}
+message Request50 {}
+message Request51 {}
+message Request52 {}
+message Request53 {}
+message Request54 {}
+message Request55 {}
+message Request56 {}
+message Request57 {}
+message Request58 {}
+message Request59 {}
+message Request60 {}
+message Request61 {}
+message Request62 {}
+message Request63 {}
+message Request64 {}
+message Request65 {}
+message Request66 {}
+message Request67 {}
+message Request68 {}
+message Request69 {}
+message Request70 {}
+message Request71 {}
+message Request72 {}
+message Request73 {}
+message Request74 {}
+message Request75 {}
+message Request76 {}
+message Request77 {}
+message Request78 {}
+message Request79 {}
+message Request80 {}
+message Request81 {}
+message Request82 {}
+message Request83 {}
+message Request84 {}
+message Request85 {}
+message Request86 {}
+message Request87 {}
+message Request88 {}
+message Request89 {}
+message Request90 {}
+message Request91 {}
+message Request92 {}
+message Request93 {}
+message Request94 {}
+message Request95 {}
+message Request96 {}
+message Request97 {}
+message Request98 {}
+message Request99 {}

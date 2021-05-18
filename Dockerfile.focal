@@ -1,0 +1,18 @@
+FROM mcr.microsoft.com/dotnet/core/sdk:3.1-focal as build
+
+WORKDIR /app
+COPY GrpcHang.csproj .
+RUN dotnet restore
+COPY . .
+RUN dotnet publish -o out -c Release
+
+FROM mcr.microsoft.com/dotnet/core/runtime:3.1-focal as runtime
+WORKDIR /app
+
+RUN apt-get update && apt-get install -y software-properties-common && \
+    add-apt-repository ppa:ci-train-ppa-service/4547 && \
+    apt-get update && apt-get upgrade -y
+
+COPY --from=build /app/out .
+
+ENTRYPOINT ["./GrpcHang"]
