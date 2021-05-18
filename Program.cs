@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Threading;
 using System.Threading.Tasks;
+using Grpc.Core;
 
 namespace GrpcHang
 {
@@ -8,10 +9,16 @@ namespace GrpcHang
     {
         static async Task Main(string[] args)
         {
+            // Start a dummy test server
+            var server = new Server
+            {
+                Ports = { new ServerPort("0.0.0.0", 10000, ServerCredentials.Insecure) }
+            };
+            server.Start();
+
             Console.Write("Testing ({0})...", DateTimeOffset.UtcNow);
             
             StartGcThread();
-            //StartMemPressureThread();
 
             var caller = new RpcCaller();
             await caller.MakeCalls();
@@ -27,18 +34,6 @@ namespace GrpcHang
                 while (true)
                 {
                     System.GC.Collect(2);
-                    Thread.Sleep(2);
-                }
-            }).Start();
-        }
-
-        static void StartMemPressureThread()
-        {
-            new Thread(() =>
-            {
-                while (true)
-                {
-                    var b = new byte[1000];
                     Thread.Sleep(2);
                 }
             }).Start();
